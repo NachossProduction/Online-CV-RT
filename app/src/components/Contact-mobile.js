@@ -16,13 +16,13 @@ export default function ContactsMobile() {
               <img src={profilLight} alt="profil-pic" className='rounded-full w-full h-auto object-cover '/>
             </div>
             <div className="flex flex-col w-full justify-around">
-              <div className="flex flex-col w-1/2 mx-auto pb-5 border-b-2 mb-5">
+              <div className="flex flex-col w-1/2 mx-auto mb-5 bg-sky-100 p-5 border-8 border-sky-500 rounded-t-full">
                 <div className='text-xl underline pl-2'>Contacts</div>
                 <div className='text-xl '>07.78.58.92.19</div>
                 <div className='text-xl '>Younesharrat5896@gmail.com</div>
               </div>
               
-              <div className="flex flex-col w-1/2 mx-auto">
+              <div className="flex flex-col w-1/2 mx-auto mt-5 bg-sky-100 p-5 border-8 border-sky-500 rounded-b-full">
                 <div className='text-xl underline pl-2'>Socials</div>
                 <div className="flex flex-row justify-evenly">
                   <div className='text-xl'><a href="https://www.linkedin.com/in/younesharrat/"> <img src={linkedinIcon} alt="linkedin-icon" /></a></div>
