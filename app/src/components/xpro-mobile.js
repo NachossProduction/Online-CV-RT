@@ -22,7 +22,7 @@ export default function XproMobile({currentLang}) {
 
               <div className="desc pb-8" >
                 <div className="text-lg text-center py-4">" {currentLang === "EN" ? "Marketing Suite for" : "Suite Marketing pour" } Microsoft Dynamics 365, <br/> Power Apps & Business Central "</div>
-                <p className="text-center">
+                <p className="text-center ">
                   {currentLang === "EN" ? 
                     "Bring together performance and mastery of strategic data. Touchdown is the modern marketing suite dedicated to SMEs, fully integrated into your Microsoft Dynamics 365, Power Apps and Business Central CRM. We put our expertise at your service to help you exceed your marketing and sales objectives."
                   : "Réunissez performance et maîtrise des données stratégiques. Touchdown est la suite marketing moderne dédiée aux PME totalement intégrée à votre CRM Microsoft Dynamics 365, Power Apps et Business Central. Nous mettons notre expertise à votre service pour vous aider à dépasser vos objectifs marketing et commerciaux."
@@ -32,10 +32,10 @@ export default function XproMobile({currentLang}) {
 
               <div className="skills w-full flex flex-col min-h-40 ">
                 <div className="w-full flex flex-col ">
-                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit">
+                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit text-xl">
                     Hard Skills
                   </div>
-                  <div className="text-center p-2">
+                  <div className="text-center p-2 text-xl">
                     <div>- {currentLang === "EN" ? "Testing and debugging" : "Tests et debug" }</div>
                     <div>- {currentLang === "EN" ? "Agile Metodology:" : "Méthodologie Agile:"} Kanban</div>
                     <div>- {currentLang === "EN" ? "Object Oriented Programming" : "Programmation Orientée Objet" }</div>
@@ -43,10 +43,10 @@ export default function XproMobile({currentLang}) {
                 </div>
 
                 <div className="w-full flex flex-col ">
-                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit">
+                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit text-xl">
                     Soft Skills
                   </div>
-                  <div className="text-center p-2">
+                  <div className="text-center p-2 text-xl">
                     <div>- {currentLang === "EN" ? "Self Management" : "Autonomie" }</div>
                     <div>- {currentLang === "EN" ? "Creativity" : "Créativité" }</div>
                     <div>- {currentLang === "EN" ? "Adaptabilty" : "Adaptabilité" }</div>
@@ -54,8 +54,8 @@ export default function XproMobile({currentLang}) {
                 </div>
               </div>
 
-              <div className="opinion shadow-light w-full rounded-b-3xl p-4 w-fit mx-auto">
-                <div className="flex flex-col space-y-3 text-center">
+              <div className="opinion shadow-light w-full rounded-b-3xl p-4">
+                <div className="flex flex-col space-y-3 text-center text-lg">
                   {currentLang === "EN" ? 
                   <>
                   <div>I liked the fact that they chose to use Svelte as a framework and also i discovered working with Microsoft Dynamics 365 </div>
@@ -89,7 +89,8 @@ export default function XproMobile({currentLang}) {
               </div>
 
               <div className="desc pb-8" >
-                <div className="text-lg text-center py-4">" {currentLang === "EN" ? "The unique interface for the connected operator and manager" : "L’interface unique de l’opérateur et du manager connectés" } "</div>
+                <div className="text-lg text-center py-4">
+                  " {currentLang === "EN" ? "The unique interface for the connected operator and manager" : "L’interface unique de l’opérateur et du manager connectés" } "</div>
                 <p className="text-center">
                 {currentLang === "EN" ? 
                   <>
@@ -105,10 +106,10 @@ export default function XproMobile({currentLang}) {
 
               <div className="skills w-full flex flex-col min-h-40">
                 <div className="w-full flex flex-col ">
-                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit">
+                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit text-xl">
                     Hard Skills
                   </div>
-                  <div className="text-center p-2">
+                  <div className="text-center p-2 text-xl">
                     <div>- {currentLang === "EN" ? "Agile Metodology:" : "Méthodologie Agile:"} Scrum, Kanban</div>
                     <div>- {currentLang === "EN" ? "Problem Solving and modular thinking" : "Résolution de problème et vision modulaire" }</div>
                     <div>- {currentLang === "EN" ? "Working with FabricJs" : "Utilisation de FabricJs" }</div>
@@ -116,10 +117,10 @@ export default function XproMobile({currentLang}) {
                 </div>
 
                 <div className="w-full flex flex-col ">
-                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit">
+                  <div className="text-base text-center border-black border-2 bg-sky-500 w-1/4 mx-auto min-w-fit text-xl">
                     Soft Skills
                   </div>
-                  <div className="text-center p-2">
+                  <div className="text-center p-2 text-xl">
                     <div>- {currentLang === "EN" ? "Team working" : "Travail en équipe"} </div>
                     <div>- {currentLang === "EN" ? "Reading about new technologies" : "Veille Technologique" }</div>
                     <div>- {currentLang === "EN" ? "Research and Developpment" : "Recherche et développement" }</div>
@@ -127,8 +128,8 @@ export default function XproMobile({currentLang}) {
                 </div>
               </div>
 
-              <div className="opinion shadow-light rounded-b-3xl p-4 w-fit mx-auto">
-                <div className="flex flex-col space-y-3 text-center text-sm">
+              <div className="opinion shadow-light w-full rounded-b-3xl p-4">
+                <div className="flex flex-col space-y-3 text-center text-lg">
                 {currentLang === "EN" ? 
                   <>
                   <div>I liked how i was onboarded, in spite of the covid period. <br/> I learned a lot in my 2 first weeks. </div>
