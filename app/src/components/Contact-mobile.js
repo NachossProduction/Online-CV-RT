@@ -28,6 +28,7 @@ export default function ContactsMobile() {
                   <div className='text-xl'><a href="https://www.linkedin.com/in/younesharrat/"> <img src={linkedinIcon} alt="linkedin-icon" /></a></div>
                   <div className='text-xl'><a href="https://github.com/YounesHarrat"><img src={githubIcon} alt="github-icon" /></a></div>
                 </div>
+                
               </div>
             </div>
         </section>
